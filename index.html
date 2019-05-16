@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LandingPage</title>
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#ff4970">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#ff4970">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="src/styles/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- <div class="video-background">
+        <div class="video-foreground">
+            <iframe
+                src="https://giphy.com/gifs/BHNfhgU63qrks/html5"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div> -->
+
+    <!-- src="<%= require('./src/assets/logo-on-dark-bg.png') %>" -->
+    <div class="splash">
+        <div class="splash__content">
+            <div class="splash-title">
+                <a href="https://github.com/Cleonidas" target="_blank"><img
+                        class="splash-title__img" src="src/assets/DesignerDaily.png"
+                        alt="webpack logo"></a>
+            </div>
+            <div class="splash-overview">
+                <h1 class="splash-overview__heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    iure veniam ipsa placeat, nemo ut?
+                </h1>
+                <div class="splash-overview__star">
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/Cleonidas" data-show-count="true"
+                        aria-label="Star lifenautjoe/webpack-starter-basic on GitHub">Star</a>
+                </div>
+                <div class="splash-overview__conclusion">
+                    <strong>Obracające się obrazki:</strong> 
+                    <ul>
+                   <li> <img class="rotatingImgs" src="src/assets/atom.png" alt="Miały być ikonki ale coś nie działa"></li>
+                   <li> <img class="rotatingImgs" src="src/assets/bulb.png" alt="Miały być ikonki ale coś nie działa"></li>
+                   <li> <img class="rotatingImgs" src="src/assets/ice.png" alt="Miały być ikonki ale coś nie działa"></li>
+                   <li> <img class="rotatingImgs" src="src/assets/pen.png" alt="Miały być ikonki ale coś nie działa"></li>
+                   <li> <img class="rotatingImgs" src="src/assets/shisha.png" alt="Miały być ikonki ale coś nie działa"></li>
+                </ul>
+                </div>
+                <div class="splash-overview__details">
+                    Naciśnij <strong>przycisk</strong> i <strong>zagraj</strong> w gre.
+                    <div class="splash-overview-plugins">
+                        <button id="plugins-trigger" class="splash-overview-plugins__trigger">
+                            Gra w zgadywanie kolorów po RGB
+                        </button>
+                        <ul id="plugins" class="splash-overview-plugins__list">
+                            <div class="RGBgame">
+
+                              
+                        
+                                    <h1 id="nan" class="whiteFont"><span id="guessRGB"></span></h1>
+                        
+                        
+                               
+                                <span id="guessRGB"></span>
+                                <div>
+                                    <button id="reset">Nowe Kolory</button>
+                                    <span id="areWin"></span>
+                            
+                                </div>
+                                <div class="container">
+                        
+                                    <div class="RGBgame-square"></div>
+                                    <div class="RGBgame-square"></div>
+                                    <div class="RGBgame-square"></div>
+                                    <div class="RGBgame-square"></div>
+                                    <div class="RGBgame-square"></div>
+                                    <div class="RGBgame-square"></div>
+                        
+                                </div>
+                        
+                              
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="splash-overview-start">
+                    <div class="splash-overview-start__command">
+                        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt atque corrupti non illum? Quia, at error! Natus, placeat! Quis quasi libero eveniet officiis reiciendis voluptatem distinctio explicabo corrupti ipsa modi!</h2>
+                    </div>
+                   
+                </div>
+                <div class="splash-overview-issues">
+                    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </div>
+                    <strong>Excepturi nesciunt, impedit sequi laudantium magni aliquid hic expedita non debitis praesentium <a href="">here</a>.
+                    </strong>
+                </div>
+                <div class="splash-overview-footer">
+                    A project by <strong><a target="_blank"
+                            href="">Kamil Smoliński</a></strong>.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101423651-2"></script>
+    <script src="src/index.js"></script>
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-101423651-2');
+    </script> -->
+
+</body>
+
+</html>
